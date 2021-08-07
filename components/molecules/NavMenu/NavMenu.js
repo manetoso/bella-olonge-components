@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Icon from '../../atoms/Icon/Icon'
+import IconComp from '../../atoms/IconComp/IconComp'
 import Spacer from '../../atoms/Layout/Spacer/Spacer'
 import NavItem from '../../atoms/NavItem/NavItem'
 import './navMenu.css'
@@ -10,7 +10,7 @@ const NavMenu = ({ itemActive }) => {
     <nav className="nav">
       <input type="checkbox" />
       <div className="nav-icon">
-        <Icon iconType="menu" iconSize="md" />
+        <IconComp iconType="menu" iconSize="md" />
       </div>
       <ul className="nav-list">
         <NavItem textLink="home" isActive={true} />

@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Icon from '../../components/atoms/Icon'
+import IconComp from '../../components/atoms/IconComp'
 
 export default {
-  title: 'Atoms/Icon',
-  component: Icon,
+  title: 'Atoms/IconComp',
+  component: IconComp,
 }
 
-const Template = (args) => <Icon {...args} />
+const Template = (args) => <IconComp {...args} />
 
 export const IconFacebook = Template.bind({})
 IconFacebook.args = {
