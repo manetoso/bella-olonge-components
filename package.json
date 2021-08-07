@@ -1,8 +1,12 @@
 {
-  "name": "02-bella-olonge",
+  "name": "bella-olonge-components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manetoso/bella-olonge-components"
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook -p 6006 -s components/assets",
