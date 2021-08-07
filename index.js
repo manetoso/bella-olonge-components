@@ -3,7 +3,7 @@ import Spacer from './components/atoms/Layout/Spacer'
 
 import Button from './components/atoms/Button'
 import Header from './components/atoms/Header'
-import Icon from './components/atoms/Icon'
+import IconComp from './components/atoms/IconComp'
 import Logo from './components/atoms/Logo'
 import NavItem from './components/atoms/NavItem'
 import Paragraph from './components/atoms/Paragraph'
@@ -17,7 +17,7 @@ export {
   Spacer,
   Button,
   Header,
-  Icon,
+  IconComp,
   Logo,
   NavItem,
   Paragraph,
