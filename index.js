@@ -1,7 +1,7 @@
 import Container from './components/atoms/Layout/Container'
 import Spacer from './components/atoms/Layout/Spacer'
 
-import Buttom from './components/atoms/Button'
+import Button from './components/atoms/Button'
 import Header from './components/atoms/Header'
 import Icon from './components/atoms/Icon'
 import Logo from './components/atoms/Logo'
@@ -15,7 +15,7 @@ import NavMenu from './components/molecules/NavMenu'
 export {
   Container,
   Spacer,
-  Buttom,
+  Button,
   Header,
   Icon,
   Logo,
