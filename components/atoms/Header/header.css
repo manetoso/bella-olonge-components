@@ -1,0 +1,44 @@
+.header {
+  margin: 0;
+  padding: 0;
+  font-family: var(--choosen-font-family-poppins);
+}
+
+.header-primary {
+  color: var(--choosen-colors-primary);
+}
+.header-secondary {
+  color: var(--choosen-colors-secondary);
+}
+.header-black {
+  color: var(--colors-black);
+}
+.header-white {
+  color: var(--colors-white);
+}
+.header-xs {
+  font-size: var(--choosen-font-size-sm);
+  line-height: var(--choosen-line-height-normal);
+  letter-spacing: var(--choosen-letter-spacing-tight);
+}
+.header-sm {
+  font-size: var(--choosen-font-size-lg);
+  line-height: var(--choosen-line-height-relaxed);
+  letter-spacing: var(--choosen-letter-spacing-normal);
+}
+.header-md {
+  font-size: var(--choosen-font-size-xl);
+  line-height: var(--choosen-line-height-normal);
+  letter-spacing: var(--choosen-letter-spacing-tight);
+}
+.header-lg {
+  font-size: var(--choosen-font-size-2xl);
+  line-height: var(--choosen-line-height-loose);
+  letter-spacing: var(--choosen-letter-spacing-normal);
+}
+.is-subtitle {
+  font-family: var(--choosen-font-family-montserrat);
+  font-size: var(--choosen-font-size-sm);
+  line-height: var(--choosen-line-height-normal);
+  letter-spacing: var(--choosen-letter-spacing-tight);
+}

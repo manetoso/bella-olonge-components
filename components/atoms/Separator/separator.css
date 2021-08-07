@@ -1,0 +1,6 @@
+.separator {
+  display: flex;
+  width: 884px;
+  height: 3px;
+  background-color: var(--choosen-colors-gray-2);
+}

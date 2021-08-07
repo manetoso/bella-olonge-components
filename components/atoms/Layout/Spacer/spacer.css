@@ -1,0 +1,35 @@
+.spacer {
+    display: inline-block;
+}
+
+.spacer-xs {
+    width: var(--choosen-spacing-xs);
+    height: var(--choosen-spacing-xs);
+}
+.spacer-sm {
+    width: var(--choosen-spacing-sm);
+    height: var(--choosen-spacing-sm);
+}
+.spacer-md {
+    width: var(--choosen-spacing-md);
+    height: var(--choosen-spacing-md);
+}
+.spacer-lg {
+    width: var(--choosen-spacing-lg);
+    height: var(--choosen-spacing-lg);
+}
+.spacer-xl {
+    width: var(--choosen-spacing-xl);
+    height: var(--choosen-spacing-xl);
+}
+.is-visible {
+    border: 1px dashed var(--choosen-colors-primary);
+}
+.horizontal {
+    display: block;
+    width: 100%;
+}
+.vertical {
+    display: block;
+    height: 100vh;
+}
