@@ -4,3 +4,9 @@
   height: 3px;
   background-color: var(--choosen-colors-gray-2);
 }
+
+@media ( max-width: 419px ) {
+  .separator {
+    width: 100%;
+  }
+}
