@@ -1,4 +1,5 @@
 import Container from './components/atoms/Layout/Container'
+import MaxContainer from './components/atoms/Layout/MaxContainer'
 import Spacer from './components/atoms/Layout/Spacer'
 
 import Button from './components/atoms/Button'
@@ -18,6 +19,7 @@ import Navbar from './components/molecules/Navbar'
 
 export {
   Container,
+  MaxContainer,
   Spacer,
   Button,
   Header,
