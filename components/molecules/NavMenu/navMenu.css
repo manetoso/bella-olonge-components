@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    overflow: hidden;
 }
 .nav input {
     position: absolute;
@@ -11,27 +12,19 @@
     height: 24px;
     opacity: 0;
 }
-.nav-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .nav .nav-icon {
     z-index: 10;
 }
 
 @media (max-width: 419px ) {
-    .nav-list {
+    .nav-menu {
         position: absolute;
         right: 0;
         top: 0;
-        width: 110%;
+        width: 100%;
         margin: 0;
         padding-top: 60px;
         padding-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         
         background: #ededed;
         list-style-type: none;
@@ -39,14 +32,19 @@
         /* to stop flickering of text in safari */
         
         transform-origin: 0% 0%;
-        transform: translate(110%, 0);
+        transform: translate(-110%, 0);
         
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .nav input {
         z-index: 20;
     }
-    .nav input:checked ~ .nav-list {
+    .nav input:checked ~ .nav-menu {
         transform: none;
     }
 }

@@ -12,15 +12,17 @@ const NavMenu = ({ itemActive }) => {
       <div className="nav-icon">
         <IconComp iconType="menu" iconSize="md" />
       </div>
-      <ul className="nav-list">
-        <NavItem textLink="home" isActive={true} />
-        <Spacer size="xs" />
-        <NavItem textLink="product" />
-        <Spacer size="xs" />
-        <NavItem textLink="faq" />
-        <Spacer size="xs" />
-        <NavItem textLink="contact" />
-      </ul>
+      <div className="nav-menu">
+        <ul className="nav-list">
+          <NavItem textLink="home" isActive={true} />
+          <Spacer size="xs" />
+          <NavItem textLink="product" />
+          <Spacer size="xs" />
+          <NavItem textLink="faq" />
+          <Spacer size="xs" />
+          <NavItem textLink="contact" />
+        </ul>
+      </div>
     </nav>
   )
 }
