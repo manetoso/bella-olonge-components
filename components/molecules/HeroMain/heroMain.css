@@ -1,0 +1,39 @@
+.hero {
+  background-color: var(--colors-brand-valhalla);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-cell-phones {
+  margin-left: -55px;
+}
+
+@media (min-width: 420px) {
+  .hero {
+    background-color: transparent;
+  }
+  .hero-1 {
+    background-image: url('../../assets/hero-1.png');
+  }
+  .hero-2 {
+    background-image: url('../../assets/hero-2.png');
+  }
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .hero-cell-phones {
+    /* background-color: tomato; */
+    margin-left: -150px;
+    margin-top: -60px;
+  }
+}

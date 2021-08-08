@@ -42,3 +42,11 @@
   line-height: var(--choosen-line-height-normal);
   letter-spacing: var(--choosen-letter-spacing-tight);
 }
+
+@media ( max-width: 419px ) {
+  .header-lg {
+    font-size: var(--choosen-font-size-lg);
+    line-height: var(--choosen-line-height-relaxed);
+    letter-spacing: var(--choosen-letter-spacing-normal);
+  }
+}

@@ -28,6 +28,7 @@ IconComp.propTypes = {
   iconSize: PropTypes.oneOf(['sm', 'md', 'lg', 'xl']),
   hasBackground: PropTypes.bool,
   noSelectable: PropTypes.bool,
+  onClick: PropTypes.func
 }
 
 IconComp.defaultProps = {

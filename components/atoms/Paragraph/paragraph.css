@@ -5,6 +5,9 @@
   letter-spacing: var(--choosen-letter-spacing-normal);
 }
 
+.small {
+  font-size: var(--choosen-font-size-xs);
+}
 .paragraph-gray-1 {
   color: var(--choosen-colors-gray-1);
 }

@@ -1,0 +1,22 @@
+.cellphone-hero {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 420px) {
+  .cellphone-hero {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .cellphone-hero .cellphone-hero-content {
+    max-width: 560px;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+}

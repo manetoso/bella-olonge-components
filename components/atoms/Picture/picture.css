@@ -2,3 +2,7 @@
   width: 100%;
   display: block;
 }
+
+.has-shadow img {
+  box-shadow: 50px 30px 150px 0 rgba(46, 4, 4, 0.15);
+}

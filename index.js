@@ -11,6 +11,10 @@ import Picture from './components/atoms/Picture'
 import Separator from './components/atoms/Separator'
 
 import NavMenu from './components/molecules/NavMenu'
+import Footer from './components/molecules/Footer'
+import HeroCellphone from './components/molecules/HeroCellphone'
+import HeroMain from './components/molecules/HeroMain'
+import Navbar from './components/molecules/Navbar'
 
 export {
   Container,
@@ -24,4 +28,8 @@ export {
   Picture,
   Separator,
   NavMenu,
+  Footer,
+  HeroCellphone,
+  HeroMain,
+  Navbar,
 }
