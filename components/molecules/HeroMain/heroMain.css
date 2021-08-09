@@ -36,3 +36,9 @@
     margin-top: -60px;
   }
 }
+
+@media ( min-width: 1441px ) {
+  .hero {
+    margin: 0 auto;
+  }
+}

@@ -6,7 +6,7 @@ import Picture from '../Picture'
 import { mapIcon, mapSize } from './helpers'
 import './iconComp.css'
 
-const IconComp = ({ iconType, iconSize, hasBackground, noSelectable }) => {
+const IconComp = ({ iconType, iconSize, hasBackground, noSelectable, onClick }) => {
   return (
     <div
       className={classNames('icon', {
@@ -17,6 +17,7 @@ const IconComp = ({ iconType, iconSize, hasBackground, noSelectable }) => {
         width: mapSize(iconSize),
         height: mapSize(iconSize),
       }}
+      onClick={onClick}
     >
       <Picture src={mapIcon(iconType)} width={mapSize(iconSize)} />
     </div>

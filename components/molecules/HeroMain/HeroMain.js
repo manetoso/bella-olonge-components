@@ -16,8 +16,8 @@ const HeroMain = ({
   textParaghraph,
   btn1Label,
   btn2Label,
-  btn1OnClick,
-  btn2OnClick,
+  onClick1,
+  onClick2,
   btnsRoundType,
   hasImage,
 }) => {
@@ -45,14 +45,14 @@ const HeroMain = ({
           label={btn1Label}
           buttonType="primary"
           roundType={btnsRoundType}
-          btnOnClick={btn1OnClick}
+          btnOnClick={onClick1}
         />
         <Spacer size="md" />
         <Button
           label={btn2Label}
           buttonType="tertiary"
           roundType={btnsRoundType}
-          btnOnClick={btn2OnClick}
+          btnOnClick={onClick2}
         />
       </div>
       <Spacer size="xl" />
@@ -72,8 +72,8 @@ HeroMain.propTypes = {
   textParaghraph: PropTypes.string,
   btn1Label: PropTypes.string,
   btn2Label: PropTypes.string,
-  btn1OnClick: PropTypes.func,
-  btn2OnClick: PropTypes.func,
+  onClick1: PropTypes.func,
+  onClick2: PropTypes.func,
   btnsRoundType: PropTypes.oneOf(['full', 'semi']),
   hasImage: PropTypes.bool,
 }

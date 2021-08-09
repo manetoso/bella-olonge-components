@@ -5,6 +5,11 @@ import HeroMain from '../../components/molecules/HeroMain'
 export default {
   title: 'Molecules/HeroMain',
   component: HeroMain,
+  argTypes: {
+    onClick: {
+        action: 'Clicked!'
+    }
+  }
 }
 
 const Template = (args) => <HeroMain {...args} />
