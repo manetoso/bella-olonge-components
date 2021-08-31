@@ -16,7 +16,7 @@ const iconSize = {
 }
 
 export const mapIcon = (type) => {
-  return `${ICONS_ASSET_MAP}/${iconMap[type]}.svg`
+  return `./${ICONS_ASSET_MAP}/${iconMap[type]}.svg`
 }
 export const mapSize = (size) => {
   return iconSize[size]
