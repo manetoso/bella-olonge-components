@@ -6,11 +6,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/manetoso/bella-olonge-components"
-},
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook -p 6006 -s components/assets",
-    "build": "build-storybook",
+    "build": "build-storybook -o docs-build -s components/assets",
     "tokens-2-css": "node ./components/scripts/tokensToCss"
   },
   "keywords": [],
