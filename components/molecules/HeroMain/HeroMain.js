@@ -58,7 +58,7 @@ const HeroMain = ({
       <Spacer size="xl" />
       {hasImage && (
         <div className="hero-cell-phones">
-          <Picture src="/phone-1.png" width="100%" />
+          <Picture src="./phone-1.png" width="100%" />
         </div>
       )}
     </div>

@@ -21,7 +21,7 @@ const HeroCellphone = ({
         [`${displayOrder}`]: displayOrder,
       })}
     >
-      <Picture src={`/phone-${imageNumber}.png`} width="100%" />
+      <Picture src={`./phone-${imageNumber}.png`} width="100%" />
       <div className="cellphone-hero-content">
         <Spacer size="sm" />
         <Header textDisplayed={textHeader1} isSubtitle={true} />
